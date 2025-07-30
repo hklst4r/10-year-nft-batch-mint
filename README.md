@@ -1,66 +1,19 @@
-## Foundry
+# Ethereum 10-Year NFT Batch Minting
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+Welcome to the Ethereum 10-Year NFT Batch Minting project! This initiative is designed to help users efficiently mint NFTs in batches.
 
-Foundry consists of:
+## Contract Location
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+The contract is located in `src/minter.sol`. Please ensure you fully understand the contract before interacting with it.
 
-## Documentation
+## Usage Instructions
 
-https://book.getfoundry.sh/
+Before using the contract, make sure to fill in the receiver address in `minter.sol`.
 
-## Usage
+## Disclaimer
 
-### Build
+Do Your Own Research (DYOR). This project does not constitute financial advice (NFA). We do not guarantee the security of the contract.
 
-```shell
-$ forge build
-```
+## Official Website
 
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+For more information, please visit the official Ethereum website: [https://ethereum.org/en/10years](https://ethereum.org/en/10years)
