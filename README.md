@@ -1,5 +1,8 @@
 # Ethereum 10-Year NFT Batch Minting
 
+**Please leave a star for this project if you find it useful! Thank you.
+如果你觉得本项目有用，请留一个star，感谢！**
+
 Welcome to the Ethereum 10-Year NFT Batch Minting project! This initiative is designed to help users efficiently mint NFTs in batches.
 
 ## Contract Location
